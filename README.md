@@ -1,0 +1,2 @@
+# proverbs
+Go proverbs
