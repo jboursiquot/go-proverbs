@@ -38,10 +38,10 @@ import "github.com/jboursiquot/proverbs"
 
 func main() {
   p, err := proverbs.Nth(4)
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Printf("%+v\n", p)
+  if err != nil {
+    fmt.Println(err)
+  }
+  fmt.Printf("%+v\n", p)
 }
 ```
 #### Result
