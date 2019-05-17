@@ -30,7 +30,7 @@ func All() ([]*Proverb, error) {
 		return list, nil
 	}
 
-	list = make([]*Proverb, len(dict))
+	list := []*Proverb{}
 	for _, p := range dict {
 		list = append(list, p)
 	}
