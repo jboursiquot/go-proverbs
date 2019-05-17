@@ -16,13 +16,17 @@ package main
 import "github.com/jboursiquot/proverbs"
 
 func main() {
-  fmt.Printf("%+v\n", proverbs.Random())
+	fmt.Println(proverbs.Random())
+	fmt.Println(proverbs.Random())
+	fmt.Println(proverbs.Random())
 }
 ```
 
 #### Result
 ```plain
-&{Saying:A little copying is better than a little dependency. Link:https://www.youtube.com/watch?v=PAAkCSZUG1c&t=9m28s}
+&{With the unsafe package there are no guarantees. https://www.youtube.com/watch?v=PAAkCSZUG1c&t=13m49s}
+&{Reflection is never clear. https://www.youtube.com/watch?v=PAAkCSZUG1c&t=15m22s}
+&{A little copying is better than a little dependency. https://www.youtube.com/watch?v=PAAkCSZUG1c&t=9m28s}
 ```
 
 ### Nth Proverb
