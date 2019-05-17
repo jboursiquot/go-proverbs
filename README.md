@@ -4,7 +4,7 @@ In 2015, Rob Pike (one of Go's creators) gave a talk at Gopherfest SV 2015 where
 
 This package simply exposes those proverbs and their relevant locations in the talk [video](https://www.youtube.com/watch?v=PAAkCSZUG1c).
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/jboursiquot/proverbs)](https://goreportcard.com/report/github.com/jboursiquot/proverbs)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jboursiquot/proverbs)](https://goreportcard.com/report/github.com/jboursiquot/proverbs) [![GoDoc](https://godoc.org/github.com/jboursiquot/proverbs?status.svg)](https://godoc.org/github.com/jboursiquot/proverbs)
 
 ## Usage Example
 
