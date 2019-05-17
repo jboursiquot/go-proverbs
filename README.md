@@ -57,13 +57,13 @@ package main
 import "github.com/jboursiquot/proverbs"
 
 func main() {
-  	list, err := proverbs.All()
-	if err != nil {
-		fmt.Println(err)
-	}
-	for _, p := range list {
-		fmt.Printf("%+v\n", p)
-	}
+  list, err := proverbs.All()
+  if err != nil {
+    fmt.Println(err)
+  }
+  for _, p := range list {
+    fmt.Printf("%+v\n", p)
+  }
 }
 
 ```
