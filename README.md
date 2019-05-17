@@ -16,9 +16,9 @@ package main
 import "github.com/jboursiquot/proverbs"
 
 func main() {
-	fmt.Println(proverbs.Random())
-	fmt.Println(proverbs.Random())
-	fmt.Println(proverbs.Random())
+  fmt.Println(proverbs.Random())
+  fmt.Println(proverbs.Random())
+  fmt.Println(proverbs.Random())
 }
 ```
 
