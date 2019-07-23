@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jboursiquot/proverbs"
+	"github.com/jboursiquot/go-proverbs"
 )
 
 func TestRandom(t *testing.T) {
