@@ -4,7 +4,7 @@ In 2015, Rob Pike (one of Go's creators) gave a talk at Gopherfest SV 2015 where
 
 This package simply exposes those proverbs and their relevant locations in the talk [video](https://www.youtube.com/watch?v=PAAkCSZUG1c).
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/jboursiquot/proverbs)](https://goreportcard.com/report/github.com/jboursiquot/proverbs) [![GoDoc](https://godoc.org/github.com/jboursiquot/proverbs?status.svg)](https://godoc.org/github.com/jboursiquot/proverbs) [![CircleCI](https://circleci.com/gh/jboursiquot/proverbs.svg?style=svg)](https://circleci.com/gh/jboursiquot/proverbs)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jboursiquot/go-proverbs)](https://goreportcard.com/report/github.com/jboursiquot/go-proverbs) [![GoDoc](https://godoc.org/github.com/jboursiquot/go-proverbs?status.svg)](https://godoc.org/github.com/jboursiquot/go-proverbs) [![CircleCI](https://circleci.com/gh/jboursiquot/go-proverbs.svg?style=svg)](https://circleci.com/gh/jboursiquot/go-proverbs)
 
 ## Usage
 
@@ -13,7 +13,7 @@ This package simply exposes those proverbs and their relevant locations in the t
 ```go
 package main
 
-import "github.com/jboursiquot/proverbs"
+import "github.com/jboursiquot/go-proverbs"
 
 func main() {
   fmt.Println(proverbs.Random())
@@ -34,7 +34,7 @@ func main() {
 ```go
 package main
 
-import "github.com/jboursiquot/proverbs"
+import "github.com/jboursiquot/go-proverbs"
 
 func main() {
   p, err := proverbs.Nth(4)
@@ -54,7 +54,7 @@ func main() {
 ```go
 package main
 
-import "github.com/jboursiquot/proverbs"
+import "github.com/jboursiquot/go-proverbs"
 
 func main() {
   list, err := proverbs.All()
