@@ -15,7 +15,7 @@ const data = `"Don't communicate by sharing memory, share memory by communicatin
 "A little copying is better than a little dependency.","https://www.youtube.com/watch?v=PAAkCSZUG1c&t=9m28s"
 "Syscall must always be guarded with build tags.","https://www.youtube.com/watch?v=PAAkCSZUG1c&t=11m10s"
 "Cgo must always be guarded with build tags.","https://www.youtube.com/watch?v=PAAkCSZUG1c&t=11m53s"
-"Ggo is not Go.","https://www.youtube.com/watch?v=PAAkCSZUG1c&t=12m37s"
+"Cgo is not Go.","https://www.youtube.com/watch?v=PAAkCSZUG1c&t=12m37s"
 "With the unsafe package there are no guarantees.","https://www.youtube.com/watch?v=PAAkCSZUG1c&t=13m49s"
 "Clear is better than clever.","https://www.youtube.com/watch?v=PAAkCSZUG1c&t=14m35s"
 "Reflection is never clear.","https://www.youtube.com/watch?v=PAAkCSZUG1c&t=15m22s"
